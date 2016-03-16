@@ -1,0 +1,140 @@
+
+body{
+	background-color: #333333;
+	margin: 0;
+	padding:0;
+}
+
+.all{
+	width: 1300px;
+	background-color: #D3D3D3;
+	margin: 0 auto;
+}
+
+.first{
+	background-color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	margin-left: 20px; 
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	box-shadow: 2px 2px 2px #666;
+
+}
+
+#bar{
+	width: 1300px;
+	height: 50px;
+	background-color: #333; 
+	margin:0 auto;
+}
+
+.guide{
+	height: 40px;
+	width: 450px;
+	float: right;
+	
+
+}
+
+.daohang{
+	float: left;
+	margin-right: 20px;
+
+}
+
+.daohang a{
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+}
+
+.daohang1 a{
+	text-decoration: none;
+	color: gray;
+	font-size: 15px;
+}
+
+.title1{
+	font-size: 18px;
+	color: gray;
+}
+
+.title2{
+	font-size: 13px;
+	color: gray;
+}
+
+.para{
+	text-indent:2em;
+}
+
+.li{
+	list-style:none;
+
+}
+
+.pic{
+	border: 1px solid gray;
+	width: 100px;
+	height: 100px;
+	padding-left: 1px;
+	padding-bottom: 1px;
+	font-size: 11px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+}
+
+
+
+.table{
+	width: 1200px;
+	border-collapse: collapse;
+
+	border-color:gray;
+
+}
+
+td{
+	border-color: gray;
+}
+
+th{
+	background-color: #333;
+	color: white;
+}
+
+
+.tip{
+	color: gray;
+	font-size: 12px;
+}
+
+.td{
+	text-align: right;
+}
+
+.button{
+	border-radius: 12px;
+	background-color: #3355D0;
+	color: white;
+	width: 100%;
+	height: 40px;
+	font-size: 15px;
+
+}
+
+.copy{
+	padding-top: 5px;
+	width: 1300px;
+	height: 80px;
+	margin:0;
+	text-align: center;
+	background: black;
+	color: white;
+}
