@@ -1,0 +1,640 @@
+body{
+	margin: 0;
+}
+
+.main{
+	width: 1281px;
+	height: 4554px;
+  	position: relative;
+  	z-index: 2;
+  	margin: 0 auto;
+  	background-color: #fff;
+}
+
+.bar{
+	position: absolute;
+  	left: 0px;
+  	top: 0px;
+  	width: 1281px;
+  	height: 50px;
+  	z-index: 2;
+  	background-color: #fff;
+}
+
+.logo{
+  	position: absolute;
+  	left: 30px;
+  	top: -6px;
+}
+
+.bar ul{
+	float: right;
+	list-style: none;
+	margin-right: 40px;
+}
+
+.bar ul li{
+	float: left;
+	margin-right: 35px;
+	font-size: 15px;
+}
+
+#login{
+	margin-right: 0px;
+}
+
+.bar span{
+	color:#e74f4d;
+}
+
+.bar ul li a{
+	text-decoration: none;
+  	font-family: "Microsoft YaHei";
+  	line-height: 1.929;
+  	color: #878787;
+  	padding-bottom: 6px;
+}
+
+.bar ul li a:hover{
+	color:#e74f4d;
+	border-bottom: 5px solid #e74f4d;
+}
+
+.one{
+	background-image: url(task07-1.jpg);
+	width: 1281px;
+  	height: 700px;
+  	position: absolute;
+ 	left: 0px;
+  	top: 49px;
+	z-index: 6;
+	color: #fff;
+}
+
+.one p{
+	font-size: 60px;
+	position: absolute;
+	left: 120px;
+	top: 150px;
+}
+
+.one span{
+	font-size: 21px;
+  	font-family: "Microsoft YaHei";
+  	color: rgb( 255, 253, 253 );
+  	line-height: 1.762;
+  	position: absolute;
+  	left: 124px;
+  	top: 300px;
+}
+
+.button{
+	background-color: rgb(231,80,77);
+	color: #fff;
+	width: 331px;
+ 	height: 65px; 
+ 	position: absolute;
+ 	left: 124px;
+ 	top: 400px;
+ 	border: none;
+ 	font-size: 30px;
+}
+
+
+.two{
+	background-color: #fff;
+  	position: absolute;
+  	left: 0px;
+  	top: 747px;
+  	width: 1281px;
+  	height: 250px;
+  	z-index: 15;
+  	text-align: center;
+}
+
+.s{
+	float: left;
+	width: 200px;
+	margin-left: 65px;
+	margin-right: 50px;
+}
+
+.line{
+	float: left;
+	width: 1px;
+	height: 50px;
+	border-right: 2px solid gray; 
+}
+
+.three{
+	background-image: url(task07-10.jpg);
+  	position: absolute;
+  	left: 0px;
+  	top: 997px;
+  	width: 1281px;
+  	height: 361px;
+  	z-index: 35;
+  	text-align: center;
+}
+
+.three p{
+	font-size: 54px;
+	font-family: "SimHei";
+	color: rgba( 50, 51, 51, 0.502 );
+	line-height: 1.056;
+}
+
+.three img{
+	position: relative;
+	top: 35px;
+}
+
+
+.four{
+	background-image: url(task07-3.jpg);
+  	position: absolute;
+  	left: 0px;
+  	top: 1358px;
+  	width: 1281px;
+  	height: 314px;
+  	z-index: 38;
+  	text-align: center;
+  	padding-top: 30px;
+}
+
+.four span{
+	font-size: 20px; 
+	font-family: "Microsoft YaHei";
+  	color: rgba( 255, 255, 255, 0.8 );
+  	line-height: 2.605;
+
+}
+
+.four div{
+	width: 30px;
+	height: 1px;
+	border-top:2px solid rgba( 255, 255, 255, 0.8 );
+	position: relative;
+	left: 625px;
+}
+
+.four p{
+	font-size: 12px;
+  	font-family: "Microsoft YaHei";
+  	color: #fff;
+  	line-height: 1.994;
+
+}
+
+.four select{
+	width: 230px;
+	height: 37px;
+	border: none;
+  	appearance:none;
+  	-moz-appearance:none;
+  	-webkit-appearance:none;
+  	background: url("task07-a.jpg") ;
+}
+
+.four select option{
+  	background-color: rgb(228,227,229);
+	color: gray;
+	padding: 5px 5px 5px 30px;
+	border: none;
+}
+
+.four select option:hover{
+	background: url("task07-b.jpg");
+	border: 1px solid #e74f4d;
+}
+
+.four select:hover{
+	border: 1px solid #e74f4d;
+}
+
+.four button{
+	width: 230px;
+	height: 37px;
+	font-size: 17px;
+  	font-family: "Microsoft YaHei";
+	color: #fff;
+	background-color: #e74f4d;
+	border: none;
+}
+
+.four table{
+	margin-top: 40px;
+	width: 60%;
+}
+
+.four table td{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.five{
+	background-image: url(task07-9.jpg);
+ 	position: absolute;
+  	left: 0px;
+  	top: 1672px;
+  	width: 1281px;
+  	height: 631px;
+  	z-index: 40;
+}
+
+
+.six1{
+	background-image: url(task07-4.jpg);
+  	position: absolute;
+  	left: 0px;
+  	top: 2302px;
+  	width: 1281px;
+  	height: 567px;
+  	z-index: 79;
+  	font-family: "Microsoft YaHei";
+  	color: #fff;
+}
+
+.nw{
+  	font-size: 49px;
+  	position: absolute;
+	left: 355px;
+	top: 120px;
+}
+
+
+.Time{
+  	font-size: 157px; 
+  	position: absolute;
+  	left: 242px;
+  	top: 140px;
+}
+
+.new{
+	font-size: 22px;
+	position: absolute;
+	left: 355px;
+	top: 340px;
+}
+
+.time{
+	font-size: 22px;
+	position: absolute;
+	left: 355px;
+	top: 380px;
+}
+
+.six2{
+ 	background-color: #fff;
+  	position: absolute;
+  	left: 851px;
+  	top: 2302px;
+  	width: 430px;
+  	height: 567px;
+  	z-index: 80;
+}
+
+.six2 button{ 
+	background-color: white;
+	border: 1px solid #e74f4d;
+	color: #e74f4d;
+	width: 107px;
+  	height: 35px;
+  	position: absolute;
+  	left: 160px;
+  	top: 350px;
+}
+
+.six2 button:hover{
+	border: 1px solid white;
+	background-color: #e74f4d;
+	color: white;
+}
+
+.p1{
+	position: absolute;
+	left: 160px;
+	top: 100px;
+	font-size: 20px;
+	font-family: "Microsoft YaHei"
+}
+
+.p2{
+	font-size: 12px;
+	font-family: "SimSun";
+  	color: rgb( 170, 170, 170 );
+  	line-height: 2.5;
+	position: absolute;
+	left: 70px;
+	top: 170px;
+}
+
+.ss{
+	color: #e74f4d; 
+}
+
+.seven1{
+  	background-image: url(task07-5.jpg);
+  	position: absolute;
+  	left: 0px;
+  	top: 2868px;
+  	width: 426px;
+  	height: 521px;
+  	z-index: 94;
+  	text-align: center;
+}
+
+.seven1 p{
+  	font-size: 21px;
+  	font-family: "SimHei";
+  	color: rgb( 255, 255, 255 );
+  	line-height: 1.446;
+	position: absolute;
+	left: 130px;
+	top: 140px;
+}
+
+.seven1 div{
+	width: 30px;
+	height: 3px;
+	border-top: 2px solid #fff;
+	position: absolute;
+	left: 200px;
+	top: 240px;
+}
+
+.seven1 button{
+	border: 1px solid white;
+	width: 170px;
+	height: 44px;
+	background-color: #e74f4d;
+	color: white;
+	font-size: 21px;
+  	font-family: "SimHei"; 
+	position: absolute;
+	left: 130px;
+	top: 270px;
+}
+
+.seven1 button:hover{
+	border: 1px solid #e74f4d;
+	background-color: white;
+	color: #e74f4d;
+}
+
+.seven2{
+  	background-image: url(task07-6.jpg);
+  	position: absolute;
+  	left: 425px;
+  	top: 2868px;
+  	width: 426px;
+ 	height: 521px;
+  	z-index: 95;
+  	text-align: center;
+}
+
+.seven2 p{
+  	font-size: 21px;
+  	font-family: "SimHei";
+	color: rgb( 50, 51, 51 );
+  	line-height: 1.446;
+	position: absolute;
+	left: 130px;
+	top: 140px;
+}
+
+.seven2 div{
+	width: 30px;
+	height: 3px;
+	border-top: 2px solid gray;
+	position: absolute;
+	left: 200px;
+	top: 240px;
+}
+
+.seven2 button{
+	border: 1px solid #e74f4d;
+	width: 170px;
+	height: 44px;
+	background-color: white;
+	color: #e74f4d;
+	font-size: 21px;
+  	font-family: "SimHei"; 
+	position: absolute;
+	left: 130px;
+	top: 270px;
+}
+
+.seven2 button:hover{
+	border: 1px solid white;
+	background-color: #e74f4d;
+	color: white;
+}
+
+.seven3{
+  	background-image: url(task07-7.jpg);
+  	position: absolute;
+  	left: 850px;
+  	top: 2868px;
+  	width: 431px;
+  	height: 521px;
+  	z-index: 96;
+}
+
+.eight{
+	position: absolute;
+	left: 0px;
+	top: 3389px;
+	width: 1281px;
+	height: 747px;
+	text-align: center;
+}
+
+.title1{
+  	font-size: 21px;
+  	font-family: "SimHei";
+ 	color: rgb( 50, 51, 51 );
+  	line-height: 1.446;
+	margin-top: 100px;
+	margin-bottom: 5px; 
+}
+
+.title2{
+  	font-size: 12px;
+  	font-family: "Microsoft YaHei";
+  	color: rgb( 170, 170, 170 );
+  	line-height: 1.5;
+}
+
+.orange{
+	border-top: 2px solid #e74f4d;
+	width: 30px;
+	height: 1px;
+	margin-left: 625px;
+}
+
+.left{
+	float: left;
+	width: 300px;
+	height: 300px;
+	margin-left: 150px;
+	margin-top: 90px;
+	text-align: left;
+}
+
+.eight h4{
+	font-size: 14px;
+  	font-family: "SimHei";
+  	color: rgba( 35, 24, 21, 0.8 );
+  	line-height: 1.929;
+}
+
+.juzi{
+ 	font-size: 12px;
+  	font-family: "SimSun";
+  	color: rgba( 35, 24, 21, 0.6 );
+  	line-height: 1.75;
+}
+
+.more{
+	width: 80px; 
+	height: 12px;
+	float: right;
+	font-size: 13px;
+	font-family: "SimSun";
+  	color: rgba( 35, 24, 21, 0.6 ); 
+}
+
+.more img{
+	float: left;
+}
+
+.eight form{
+	float: right;
+	width: 650px;
+	height: 300px;
+	margin-right: 150px;
+	margin-top: 100px;
+}
+
+.eight form input{
+	background-color: rgb(237,237,239);
+	border: none;
+	width: 300px;
+	height: 40px;
+	margin: 8px 6px 8px 6px; 
+	padding-left: 8px;
+}
+
+.eight form textarea{
+	background-color: rgb(237,237,239);
+	border: none;
+	width: 626px;
+	height: 120px;
+	padding: 8px 0 0 8px; 
+	margin: 8px 6px 8px 6px;
+	font-size: 13px;
+}
+
+.eight form button{
+	background-color: rgb(237,237,239);
+	border: none;
+	width: 634px;
+	height: 40px;
+	margin: 8px 0px 8px 0px;
+	font-size: 14px;
+  	font-family: "SimHei";
+  	color: rgb( 50, 51, 51 );
+  	line-height: 1.929;
+}
+
+.nine{
+	background-image: url(task07-8.jpg);
+  	position: absolute;
+  	left: 0px;
+  	top: 4138px;
+  	width: 1281px;
+  	height: 361px;
+  	z-index: 138;
+  	text-align: center;
+}
+
+.nine ul{
+	list-style: none;
+	position: absolute;
+	left: 490px;
+	top: 250px;
+}
+
+.nine ul li{
+	float: left;
+}
+
+.nine span{
+  	font-size: 21px;
+  	font-family: "SimHei";
+  	color: rgb( 255, 255, 255 );
+  	line-height: 2.303;
+	position: absolute;
+	left:600px; 
+	top:80px;
+}
+
+.nine p{
+  font-size: 12px;
+  font-family: "SimSun";
+  color: rgb( 255, 255, 255 );
+  line-height: 1.5;
+  position: absolute;
+  left: 407.39px;
+  top: 120px;
+}
+
+.nine div{
+	width: 512px;
+	height: 47px; 
+	position: absolute;
+	left: 390px;
+	top: 190px;
+}
+
+.nine input{
+	width: 410px;
+	height: 42px;
+}
+
+.nine button{
+	width: 81px;
+	height: 100%;
+	color: #fff;
+	background-color: rgb(112,114,120);
+	font-size: 15.004px;
+  	font-family: "Microsoft YaHei";
+  	line-height: 1.498;
+  	border: none;
+  	margin-left: -5px; 
+}
+
+.footer{
+  	background-color: #30303a;
+  	position: absolute;
+  	left: 0px;
+  	top: 4496px;
+  	width: 1281px;
+  	height: 59px;
+  	z-index: 139;
+  	color: white;
+  	font-family: "SimSun";
+  	font-size: 12px;
+}
+
+.footer p{
+	float: left;
+	margin: 30px 0px 0px 100px;
+}
+
+#back{
+	position: absolute;
+	bottom: 13px;
+	right: 50px;
+}
